@@ -1,4 +1,9 @@
 @import 'reset';
 @import 'variables';
-@import 'index';
-@import 'App';
+@import 'header';
+
+body {
+    padding-top: 24px;
+    font-family: $lato;
+    font-weight: 300;
+}
