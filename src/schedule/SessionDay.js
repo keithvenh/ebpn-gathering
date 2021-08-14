@@ -1,4 +1,5 @@
 import React from 'react';
+import Session from './Session';
 
 class SessionDay extends React.Component {
     constructor(props) {
@@ -10,7 +11,8 @@ class SessionDay extends React.Component {
             today: today,
             display: props.display,
             date: props.date,
-            expanded: today
+            expanded: today,
+            sessions: props.sessions
         }
         this.handleClick = this.handleClick.bind(this)
     }
@@ -20,13 +22,14 @@ class SessionDay extends React.Component {
             expanded: this.state.expanded ? false : true
         })
     }
-    
+
     render() {
         return(
             <div className='sessionDay'>
                 <div className='day-header' onClick={this.handleClick}>
-                    <h1 className={`today-${this.state.today}`}><i className={`fas ${this.state.expanded ? "fa-caret-down" : "fa-caret-right"}`}></i> {this.state.display}</h1>
+                    <h3 className={`today-${this.state.today}`}><i className={`fas ${this.state.expanded ? "fa-caret-down" : "fa-caret-right"}`}></i> {this.state.display}</h3>
                 </div>
+                {this.state.expanded && this.props.sessions.map(sess => <Session key={sess.id} session={sess}/>)}
             </div>
         )
     }

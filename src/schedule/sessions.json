@@ -1,0 +1,78 @@
+[
+    {
+        "date": "8/14/2021",
+        "display": "Saturday, 14 August",
+        "sessions": [
+            {
+                "id": 1000,
+                "type_of": "Main Session",
+                "time": "6a - 7a",
+                "speaker": "Keith VenHuizen",
+                "topic": "Communications",
+                "zoom_url": "https://us02web.zoom.us/j/8540118317"
+            },
+            {
+                "id": 2000,
+                "type_of": "Breakout Sessions",
+                "time": "7a - 8a",
+                "subsessions": [
+                    {
+                        "topic": "Prayer",
+                        "host": "host",
+                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                    },
+                    {
+                        "topic": "Distribution",
+                        "host": "host",
+                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "8/31/2021",
+        "display": "Tuesday, 31 August",
+        "sessions": [
+            {
+                "id": 1,
+                "type_of": "Welcome",
+                "time": "8a-830a",
+                "speaker": "David Joel Hamilton",
+                "topic": "Welcome",
+                "zoom_url": "https://us02web.zoom.us/j/8540118317"
+            },
+            {
+                "id": 2,
+                "type_of": "Main Session",
+                "time": "830a-9a",
+                "speaker": "Austin Sunderman and Dax Fears",
+                "topic": "Heart of the Gathering",
+                "zoom_url": "https://us02web.zoom.us/j/8540118317"
+            },
+            {
+                "id": 3,
+                "type_of": "Introductions",
+                "time": "9a-10a",
+                "speaker": "Austin Sunderman",
+                "topic": "Introductions",
+                "zoom_url": "https://us02web.zoom.us/j/8540118317"
+            }
+        ]
+    },
+    {
+        "date": "9/1/2021",
+        "display": "Wednesday, 1 September",
+        "sessions": ["alpha", "beta"]
+    },
+    {
+        "date": "9/2/2021",
+        "display": "Thursday, 2 September",
+        "sessions": ["alpha", "beta"]
+    },
+    {
+        "date": "9/3/2021",
+        "display": "Friday, 3 September",
+        "sessions": ["alpha", "beta"]
+    }
+]

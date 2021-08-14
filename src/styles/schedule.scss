@@ -1,7 +1,7 @@
 .day-header {
     padding: 0 16px;
     margin: 24px 0;
-    h1 {
+    h3 {
         font-size: 24px;
         .fas {
             margin-right: 12px;
@@ -12,6 +12,37 @@
         cursor: pointer;
     }
 }
+
 .today-true {
     font-weight: 400;
+}
+
+.session {
+    padding-left: 48px;
+    h4 {
+        font-size: 20px;
+        margin: 0;
+        margin-top: 12px;
+        .fas {
+            margin-right: 12px;
+        }
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.session-details {
+    padding-left: 32px;
+}
+
+.session-info, .subsession {
+    margin: 10px 0;
+    p {
+        margin-right: 12px;
+        font-size: 20px;
+    }
+    .zoom-link {
+        margin-left: 12px;
+    }
 }
