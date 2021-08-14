@@ -1,0 +1,17 @@
+.day-header {
+    padding: 0 16px;
+    margin: 24px 0;
+    h1 {
+        font-size: 24px;
+        .fas {
+            margin-right: 12px;
+        }
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+.today-true {
+    font-weight: 400;
+}
