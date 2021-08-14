@@ -1,3 +1,11 @@
+@import 'variables';
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .app-title {
     font-size: 32px;
     text-align: center;
@@ -9,10 +17,23 @@
     text-align: center;
 }
 
+.zoom-link {
+    background-color: $blue1;
+    box-shadow: 2px 2px 5px $grey1;
+    color: $white;
+    display: inline-block;
+    font-size: 20px;
+    height: 24px;
+    line-height: 24px;
+    margin: 24px 0;
+    padding: 12px 24px;
+    text-decoration: none;
+}
+
 .nav-list {
     display: flex;
-    list-style-type: none;
     justify-content: center;
+    list-style-type: none;
     margin: 24px;
 }
 
@@ -23,9 +44,12 @@
     letter-spacing: 2px;
     &:hover {
         cursor: pointer;
-        color: #333;
+        color: $trueBlack;
     }
     &.active-true {
-        border-bottom: 1px solid #000;
+        border-bottom: 1px solid $black;
+        &:hover {
+            border-bottom: 1p solid $trueBlack;
+        }
     }
 }

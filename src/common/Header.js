@@ -18,8 +18,13 @@ class Header extends React.Component {
     render() {
         return (
             <header className="header">
+
                 <h1 className="app-title">EBPN Gathering</h1>
                 <h2 className="app-dates">August 31 - September 3</h2>
+
+                <a href="https://us02web.zoom.us/j/8540118317" target="_blank" rel='noreferrer' className='zoom-link'>
+                    Join Us On Zoom!
+                </a>
 
                 <nav className="navbar">
                     <ul className="nav-list">
@@ -28,6 +33,7 @@ class Header extends React.Component {
                         <li className={`nav-item active-${this.state.activeLink === 'hubs'}`} onClick={(event) => this.navItemClick(event)}>Hubs</li>
                     </ul>
                 </nav>
+
             </header>
         )
     }
