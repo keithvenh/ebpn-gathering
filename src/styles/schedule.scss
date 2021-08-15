@@ -28,21 +28,36 @@
         }
         &:hover {
             cursor: pointer;
-        }
+        }   
     }
+    &.current-true {
+        h4 {
+            font-weight: 400;
+        }
+    }  
 }
 
 .session-details {
     padding-left: 32px;
+    .speaker {
+        font-size: 0.9em;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .topic {
+
+        margin-bottom: 6px;
+    }
 }
 
-.session-info, .subsession {
-    margin: 10px 0;
+.session-info {
+    margin-top: 10px;
     p {
         margin-right: 12px;
         font-size: 20px;
     }
     .zoom-link {
+
         margin-left: 12px;
     }
 }

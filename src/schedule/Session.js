@@ -4,14 +4,20 @@ import Subsession from './Subsession';
 class Session extends React.Component {
     constructor(props)  {
         super(props);
+        const currentTime = new Date();
+        const time = `${currentTime.getHours()}${currentTime.getMinutes() < 10 ? "0" : ''}${currentTime.getMinutes()}`
+        const currentSession = parseInt(time) >= props.session.start_time && parseInt(time) < props.session.end_time;
         this.state = {
-            expanded: false,
+            expanded: currentSession,
+            startTime: props.session.start_tims,
+            endTime: props.session.end_time,
             time: props.session.time,
             speaker: props.session.speaker,
             topic: props.session.topic,
             zoom_url: props.session.zoom_url,
             type_of: props.session.type_of,
-            subsessions: props.session.subsessions
+            subsessions: props.session.subsessions,
+            current: currentSession
         }
         this.handleClick = this.handleClick.bind(this)
     }
@@ -24,19 +30,17 @@ class Session extends React.Component {
 
     render() {
         return (
-            <div className='session'>
-                <h4 onClick={this.handleClick}><i className={`fas ${this.state.expanded ? "fa-caret-down" : "fa-caret-right"}`}></i> <span className='session-time'>{this.state.time}</span> || {this.state.type_of}</h4>
+            <div className={`session current-${this.state.current}`}>
+                <h4 onClick={this.state.type_of !== "Break" && this.handleClick}><i className={`fas ${this.state.expanded ? "fa-caret-down" : "fa-caret-right"}`}></i> <span className='session-time'>{this.state.time}</span> || {this.state.type_of}</h4>
                 {this.state.expanded && 
                     <div className="session-details">
-                        {this.state.type_of !== 'Breakout Sessions' &&
+                        {this.state.topic &&
                             <div className='session-info'>
-                                <p>
-                                    <span className='topic'>{this.state.topic}</span>
-                                    <span className='topic'> :: {this.state.speaker}</span>
-                                </p>
-                                <a className='zoom-link zoom-link-sm' href={this.state.zoom_url} target='_blank' rel='noreferrer'>Join Session</a>
+                                <p className="topic">{this.state.topic}</p>
+                                <p className="speaker">{this.state.speaker}</p>
                             </div>
                         }
+                        {this.state.zoom_url && <a className='zoom-link zoom-link-sm' href={this.state.zoom_url} target='_blank' rel='noreferrer'>Join Session</a>}
                         {this.state.subsessions && 
                             this.state.subsessions.map(sub => <Subsession details={sub} key={sub.topic}/>)
                         }
