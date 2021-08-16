@@ -34,6 +34,8 @@ class Header extends React.Component {
                     </ul>
                 </nav>
 
+                {this.state.activeLink === "schedule" && <p className="timezone">*All times are Hawaii Standard Time*</p>}
+
             </header>
         )
     }

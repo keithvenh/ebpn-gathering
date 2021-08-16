@@ -4,13 +4,19 @@ class Partner extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            title: 'Partners'
+            name: props.partner.name,
+            logo: require('../assets/images/' + props.partner.logo + '').default
         }
     }
 
     render() {
+        console.log(this.state.logo);
         return(
-            <h1>{this.state.title}</h1>
+            <div className='partner'>
+                <div className='partner-logo-container'>
+                    <img className='partner-logo' src={this.state.logo} alt={`${this.state.name} logo`} />
+                </div>
+            </div>
         )
     }
 

@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Jesus Film",
+        "logo": "jesusfilm.png"
+    },
+    {
+        "id": 2,
+        "name": "Seed Company",
+        "logo": "seedcompany.png"
+    },
+    {
+        "id": 3,
+        "name": "Wycliffe",
+        "logo": "wycliffe.png"
+    }
+]

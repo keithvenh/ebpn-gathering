@@ -1,40 +1,5 @@
 [
     {
-        "date": "8/14/2021",
-        "display": "Saturday, 14 August",
-        "sessions": [
-            {
-                "id": 1000,
-                "start_time": 1600,
-                "end_time": 1605,
-                "type_of": "Main Session",
-                "time": "4p-405p",
-                "speaker": "Keith VenHuizen",
-                "topic": "Communications",
-                "zoom_url": "https://us02web.zoom.us/j/8540118317"
-            },
-            {
-                "id": 2000,
-                "type_of": "Breakout Sessions",
-                "start_time": 1605,
-                "end_time": 1700,
-                "time": "405p-500p",
-                "subsessions": [
-                    {
-                        "topic": "Prayer",
-                        "host": "host",
-                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
-                    },
-                    {
-                        "topic": "Distribution",
-                        "host": "host",
-                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "date": "8/31/2021",
         "display": "Tuesday, 31 August",
         "sessions": [

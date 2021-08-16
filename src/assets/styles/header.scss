@@ -43,6 +43,7 @@
     justify-content: center;
     list-style-type: none;
     margin: 24px;
+    margin-bottom: 12px;
 }
 
 .nav-item {
@@ -60,4 +61,10 @@
             border-bottom: 1p solid $trueBlack;
         }
     }
+}
+
+.timezone {
+    font-size: 14px;
+    padding: 0;
+    margin-bottom: 12px;
 }
