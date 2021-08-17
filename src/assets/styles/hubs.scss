@@ -18,5 +18,28 @@
 .hub-name {
     font-weight: 400;
     font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.hub-location {
     margin-bottom: 8px;
+}
+
+.hub-contact {
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.hub-email {
+    margin-bottom: 8px;
+}
+
+.hub-more {
+    a {
+        color: $blue1;
+        &:hover {
+            color: $yellow1;
+        }
+    }
 }

@@ -2,6 +2,10 @@ const Hub = (props) => {
     return(
         <div className="hub">
             <h4 className='hub-name'>{props.hub.ywamBase}</h4>
+            <p className='hub-location'>{props.hub.baseLocation}</p>
+            <p className='hub-contact'>{props.hub.name}</p>
+            <p className='hub-email'>{props.hub.email}</p>
+            <p className='hub-more'><a href='#'>Learn More</a></p>
         </div>
     )
 }
