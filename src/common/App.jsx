@@ -2,10 +2,10 @@ import React from 'react';
 import Header from './Header';
 import SessionDay from '../schedule/SessionDay';
 import Partner from '../partners/Partner';
-import Hub from '../hubs/Hub';
+import Region from '../hubs/Region';
 import sessions from '../schedule/sessions';
 import partners from '../partners/partners';
-
+import hubs from '../hubs/hubsResponse';
 
 
 class App extends React.Component {
@@ -33,7 +33,7 @@ class App extends React.Component {
         pageView = partners.map(partner => <Partner key={partner.id} partner={partner} />)
         break;
       case 'hubs':
-        pageView = <Hub />
+        pageView = hubs.map(region => <Region key={region.region} region={region}/>)
         break;
       default:
         pageView = sessions.map(day => <SessionDay key={day.date} date={day.date} display={day.display} sessions={day.sessions}/>)
