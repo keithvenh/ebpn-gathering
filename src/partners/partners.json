@@ -1,17 +1,114 @@
 [
-    {
-        "id": 1,
-        "name": "Jesus Film",
-        "logo": "jesusfilm.png"
-    },
-    {
-        "id": 2,
-        "name": "Seed Company",
-        "logo": "seedcompany.png"
-    },
-    {
-        "id": 3,
-        "name": "Wycliffe",
-        "logo": "wycliffe.png"
-    }
+{
+"id": 1,
+"name": "One Hope",
+"representatives": "Thomas Harley",
+"email": "info@onehope.net",
+"location": "Pompano Beach, Florida USA",
+"logo": "onehope.png",
+"website": "https://onehope.net",
+"description": "One Hope’s mission is to affect destiny by providing God’s eternal Word to all the children and youth in the world."
+},
+{
+"id": 2,
+"name": "YouVersion",
+"representatives": "Jeff Moore",
+"email": "info@youversion.com",
+"location": "Edmond, Oklahoma USA",
+"logo": "youversion.png",
+"website": "https://www.youversion.com",
+"description": "YouVersion creates culturally relevant, biblical centered experiences that encourages and challenge people to seek God throughout the day."
+},
+{
+"id": 3,
+"name": "Faith Comes By Hearing",
+"representatives": "Dave Parton and Patrick Gozur",
+"email": "info@faithcomesbyhearing.com",
+"location": "Albuquerque, NM",
+"logo": "faithcomesbyhearing.png",
+"website": "https://www.faithcomesbyhearing.com",
+"description": "Faith Comes By Hearing’s mission is to record and provide the Word of God in every translated language."
+},
+
+{
+"id": 4,
+"name": "Renew",
+"representatives": "Amanda Palusky and Margaret Outlaw",
+"email": "info@renewoutreach.org",
+"location": "Atlanta, Georgia, USA",
+"logo": "renew.png",
+"website": "https://renewoutreach.org",
+"description": "Renew creates innovative technology to help the global church make JESUS famous."
+},
+{
+"id": 5,
+"name": "Davar",
+"representatives": "Mark Perkins",
+"email": "info@davarpartners.com",
+"location": "Pompano Beach, Florida USA",
+"logo": "davar.png",
+"website": "https://davarpartners.org",
+"description": "Davar Partners empowers all people to engage with the Word of God in their heart language."
+},
+{
+"id": 6,
+"name": "Jesus Film",
+"representatives": "Kari Kennedy, Bill Wolfe and Damtew Teklemariam",
+"email": "Info@JesusFilm.org",
+"location": "Orlando, Florida USA",
+"logo": "jesusfilm.png",
+"website": "https://www.jesusfilm.org",
+"description": "Send them JESUS in their heart language."
+},
+{
+"id": 7,
+"name": "Voice of the Martyrs",
+"representatives": "Jonathan Ekman",
+"email": "",
+"location": "",
+"logo": "voiceofthemartyrs.png",
+"website": "https://www.persecution.com",
+"description": "Voice of the Martyrs serves persecuted Christians through practical and spiritual assistance, and leading other members of the body of Christ into fellowship with them."
+},
+{
+"id": 8,
+"name": "Biblica",
+"representatives": "LaReau Anderson",
+"email": "info@biblica.com",
+"location": "Colorado Springs, Colorado USA",
+"logo": "biblica.png",
+"website": "https://www.biblica.com",
+"description": "Biblica, the International Bible Society, is a worldwide ministry that has been helping people engage with God’s Word for over 200 years. Biblica is committed to bringing the Bible to people in a way they understand, so they can be transformed by Christ and inspired to join His mission for the world."
+},
+{
+"id": 9,
+"name": "Seed Company",
+"representatives": "Gilles Gravelle and Solomon Lujan",
+"email": "info@seedcompany.com",
+"location": "Arlington, Texas USA",
+"logo": "seedcompany.png",
+"website": "https://seedcompany.com",
+"description": "The Seed Company’s mission is to accelerate scripture and impact for people without God's word to Great Commission partnership."
+},
+{
+"id": 10,
+"name": "Wycliffe",
+"representatives": "Ray Gogonzala, Andy Ott, Doug Hennum, Sarah Traverso, Andrew Flemming and Dave Brooks",
+"email": "info_USA@wycliffe.org",
+"location": "Orlando, Florida USA",
+"logo": "wycliffe.png",
+"website": "https://www.wycliffe.net",
+"description": "Wycliffe Global Alliance is a com­mu­nity of par­tic­i­pants in God’s mis­sion and of­fers lead­er­ship, in­flu­ence and ser­vice within Bible trans­la­tion movements."
+},
+{
+"id": 11,
+"name": "Lumo",
+"representatives": "Tharadjyne Orisma",
+"email": "info@lumoproject.com",
+"location": "Pompano Beach, Florida USA",
+"logo": "lumo.png",
+"website": "https://www.lumoproject.com",
+"description": "LUMO helps church leaders and pastors visually and emotionally engage their congregation in the Gospel story."
+}
+
 ]

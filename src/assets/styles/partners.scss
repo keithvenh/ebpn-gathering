@@ -1,14 +1,32 @@
-.partner-logo {
-    max-height: 100px;
-    max-width: 100px;
+@import 'variables';
+
+.partner {
+    margin: 24px 0;
+    padding: 0 16px;
 }
 
-.partner-logo-container {
-    height: 150px;
-    width: 150px;
-    border: 1px solid #333;
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.partner-name {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.partner-reps {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    line-height: 1.1em;
+}
+
+.partner-email {
+    margin-bottom: 8px;    
+}
+
+.partner-web {
+    a {
+        color: $blue1;
+        &:hover {
+            color: $yellow1;
+        }
+    }
 }

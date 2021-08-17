@@ -1,25 +1,14 @@
 import React from 'react';
 
-class Partner extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            name: props.partner.name,
-            logo: require('../assets/images/' + props.partner.logo + '').default
-        }
-    }
-
-    render() {
-        console.log(this.state.logo);
-        return(
-            <div className='partner'>
-                <div className='partner-logo-container'>
-                    <img className='partner-logo' src={this.state.logo} alt={`${this.state.name} logo`} />
-                </div>
-            </div>
-        )
-    }
-
+const Partner = (props) => {
+    return (
+        <div className="partner">
+            <h3 className="partner-name">{props.partner.name}</h3>
+            <p className="partner-reps">{props.partner.representatives}</p>
+            <p className="partner-email">{props.partner.email}</p>
+            <p className="partner-web"><a href={props.partner.website} target='_blank' rel='noopener noreferrer'>{props.partner.name} Website</a></p>
+        </div>
+    )
 }
 
 export default Partner;
