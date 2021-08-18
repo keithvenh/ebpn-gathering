@@ -6,13 +6,27 @@ import Region from '../hubs/Region';
 import sessions from '../schedule/sessions';
 import partners from '../partners/partners';
 import hubs from '../hubs/hubsResponse';
+import store from '../store';
 
+const mapStateToProps = (state) => {
+  return {
+    view: state.view
+  }
+}
+
+const matchDispatchToProps = (dispatch) => {
+  return {
+    handleNavClick: (view) => {
+      dispatch()
+    }
+  }
+}
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      view: 'schedule'
+      view: 'loading'
     }
     this.handleNavClick = this.handleNavClick.bind(this);
   }
