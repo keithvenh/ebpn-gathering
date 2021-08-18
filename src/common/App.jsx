@@ -10,20 +10,20 @@ import store from '../redux/store';
 import {connect} from 'react-redux';
 import {NAV_CLICK} from '../redux/actionTypes';
 import navClick from '../redux/actions/navClick';
-import { isCompositeComponentWithType } from 'react-dom/test-utils';
 
 const mapStateToProps = (state) => {
-  console.log("IN Map state to props");
+  console.log("IN App.Map state to props");
   console.log(state);
   return {
-    view: state.view
+    view: state.view,
+    hub: state.hub || 'all'
   }
 };
 
 const mapDispatchToProps = (dispatch) => {
   return {
     handleNavClick: (view) => {
-      console.log("In mapDispatchTopProps.handleNavClick");
+      console.log("In App.mapDispatchTopProps.handleNavClick");
       store.dispatch(navClick(view))
     }
   }
@@ -32,9 +32,6 @@ const mapDispatchToProps = (dispatch) => {
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      view: 'loading'
-    }
     this.handleNavClick = this.handleNavClick.bind(this);
   }
 
@@ -54,7 +51,7 @@ class App extends React.Component {
         pageView = partners.map(partner => <Partner key={partner.id} partner={partner} />)
         break;
       case 'hubs':
-        pageView = hubs.map(region => <Region key={region.region} region={region}/>)
+        pageView = this.props.hub === "all" && hubs.map(region => <Region key={region.region} region={region}/>)
         break;
       default:
         pageView = sessions.map(day => <SessionDay key={day.date} date={day.date} display={day.display} sessions={day.sessions}/>)
@@ -63,7 +60,7 @@ class App extends React.Component {
     return (
       <div className="App">
   
-        <Header view={this.state.view} navClick={this.handleNavClick}/>
+        <Header view={this.props.view} navClick={this.handleNavClick}/>
 
         {pageView}
   

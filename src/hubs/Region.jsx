@@ -1,7 +1,7 @@
-import Hub from './Hub';
+import Hubs from './Hubs';
 
 const Region = (props) => {
-    const hubs = props.region.bases.map(hub => <Hub key={hub.ywamBase} hub={hub} />)
+    const hubs = props.region.bases.map(hub => <Hubs key={hub.ywamBase} hub={hub} />)
     return (
         <div className='region'>
             <h3 className='region-title'>{props.region.region}</h3>
