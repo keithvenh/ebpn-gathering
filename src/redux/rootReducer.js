@@ -2,5 +2,5 @@ import {combineReducers} from 'redux';
 import navReducer from './reducers/navReducer';
 
 export default combineReducers(
-    navReducer
+    {view: navReducer}
 );
