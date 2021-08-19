@@ -14,8 +14,8 @@ const Hub = (props) => {
             <p className='hub-question'>Q: What are your End Bible Poverty Now visoin and goals for the next two years in these locations, and what are you needing to accomplish them?</p>
             <p className='hub-answer'>A: {props.hub.twoYearVision}</p>
             <p className='hub-question'>Q: Is there an End Bible Poverty Now project that you have started?</p>
-            <p className='hub-answer'>A: {props.ebpnProject === true ? "Yes" : "No"}</p>
-            {props.ebpnProject && 
+            <p className='hub-answer'>A: {props.hub.ebpnProject === true ? "Yes" : "No"}</p>
+            {props.hub.ebpnProject && 
             <div>
                 <p className='hub-question'>Q: Describe the project that you have started.</p>
                 <p className='hub-answer'>A: {props.hub.startedProject}</p>

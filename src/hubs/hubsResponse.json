@@ -1,8 +1,9 @@
 [
-    {
+    { 
         "region": "Africa",
         "bases": [
             {
+                "id": 1,
                 "name": "Jolien Wolfsen",
                 "email": "jolienwolfsen7@gmail.com",
                 "ywamBase": "YWAM South Africa",
@@ -15,6 +16,21 @@
                 "startedProject": "OBT1000",
                 "projectMaterials": "",
                 "desiredProjectMaterials": "Projectors, SD-cards"
+            },
+            {
+                "id": 2,
+                "name": "Riley Kneedler",
+                "email": "rileykneedler@gmail.com",
+                "ywamBase": "YWAM South Africa",
+                "baseLocation":  "Potchefstroom, South Africa",
+                "focusNations": "Ethiopia, Europe, Middle East, Nepal, Africa",
+                "languageGroups": "We are beginning connection in Ethiopia.",
+                "visionRegion": "Sub-Saharan Africa",
+                "twoYearVision": "I just got back from an outreach in Ethiopia and would love to see the people in the local villages have a bible in their language and have others from the community come and get trained and go back to train others.",
+                "ebpnProject": false,
+                "startedProject": "",
+                "projectMaterials": "",
+                "desiredProjectMaterials": ""
             }
         ]
     },
@@ -22,6 +38,7 @@
         "region": "Asia",
         "bases": [
             {
+                "id": 3,
                 "name": "Jungmi Park",
                 "email": "jungmip@gmail.com",
                 "ywamBase": "YWAM Mongolia",
@@ -34,6 +51,36 @@
                 "startedProject": "We started the project in 2019 aming to reach every home in Mongolia with the bible and the project is still on.",
                 "projectMaterials": "Mongolian and Kazak Bible",
                 "desiredProjectMaterials": "Buryatia language materials"
+            },
+            {
+                "id": 4,
+                "name": "Tim Gillette",
+                "email": "timgillette@mac.com",
+                "ywamBase": "YWAM Taipei",
+                "baseLocation":  "New Taipei City,Taiwan",
+                "focusNations": "Taiwan, China, Myanmar, Vietnam, Cambodia, Indonesia",
+                "languageGroups": "Chinese, Khmer, Sinhala, Karen, Tamil",
+                "visionRegion": "",
+                "twoYearVision": "Partner with other orgs in training",
+                "ebpnProject": false,
+                "startedProject": "",
+                "projectMaterials": "",
+                "desiredProjectMaterials": ""
+            },
+            {
+                "id": 5,
+                "name": "Matthew Thompson",
+                "email": "matthew.thompson@ywamthailand.org",
+                "ywamBase": "YWAM Chiang Rai",
+                "baseLocation":  "Chiang Rai, Thailand",
+                "focusNations": "Thailand and some surrounding nations",
+                "languageGroups": "Thai, Northern Thai",
+                "visionRegion": "More of the ethnic minorities in Thailand",
+                "twoYearVision": "Distribution of 75000 Bible in Thailand. We need finances, local church partnership, and Ywam support",
+                "ebpnProject": true,
+                "startedProject": "Sharebibles Thailand (started at our base in 2015)",
+                "projectMaterials": "Thai SourceView Bible",
+                "desiredProjectMaterials": "More audio Bibles in more languages."
             }
         ]
     },
@@ -41,9 +88,10 @@
         "region": "Europe",
         "bases": [
             {
+                "id": 6,
                 "name": "Estela Ferraz",
                 "email": "estela.ferraz@jcum.com",
-                "ywamBase": "YWAM Cáceres",
+                "ywamBase": "YWAM Caceres",
                 "baseLocation":  "Cáceres, Spain",
                 "focusNations": "Spain",
                 "languageGroups": "Spanish",
@@ -60,20 +108,7 @@
         "region": "North America",
         "bases": [
             {
-                "name": "Julie McLaughlin",
-                "email": "julie.mclaughlin@ywamships.net",
-                "ywamBase": "YWAM Ships Kona",
-                "baseLocation":  "Kailua-Kona, HI, USA",
-                "focusNations": "Isolated Pacific Islands",
-                "languageGroups": "",
-                "visionRegion": "",
-                "twoYearVision": "End of year and next year partnering with OCC with engagement and distribution for children in French Polynesia.",
-                "ebpnProject": true,
-                "startedProject": "Flotilla initiative is working on 66 Bibleless languages in Pacific",
-                "projectMaterials": "",
-                "desiredProjectMaterials": ""
-                },
-                {
+                "id": 7,
                 "name": "James Patrey",
                 "email": "jim_patrey@yahoo.com",
                 "ywamBase": "YWAM Dunham",
@@ -86,11 +121,27 @@
                 "startedProject": "Translated T&S into French, starting to have it translated into Atikamekw",
                 "projectMaterials": "The Taste &See, English and French",
                 "desiredProjectMaterials": ""
-                },
-                {
+            },
+            {
+                "id": 8,
+                "name": "Ezra Rice",
+                "email": "Ezrarice@gmail.com",
+                "ywamBase": "YWAM San José",
+                "baseLocation":  "San Jose, Costa Rica",
+                "focusNations": "Costa Rica, Central América, Middle East",
+                "languageGroups": "Spanish",
+                "visionRegion": "",
+                "twoYearVision": "",
+                "ebpnProject": true,
+                "startedProject": "Bible distribution in Costa Rica",
+                "projectMaterials": "Spanish Bibles",
+                "desiredProjectMaterials": ""
+            },
+            {
+                "id": 9,
                 "name": "Juan Carlos Crespo",
                 "email": "Juancarlos@jucummazatlan.com",
-                "ywamBase": "YWAM Mazatlán",
+                "ywamBase": "YWAM Mazatlan",
                 "baseLocation":  "Mazatlán, Mexico",
                 "focusNations": "All of Mexico",
                 "languageGroups": "Families en general (a bible in every home)",
@@ -100,7 +151,82 @@
                 "startedProject": "Bible distribution mostly printed bibles, in Mazatlan and towns around.",
                 "projectMaterials": "Printed bibles in Spanish.",
                 "desiredProjectMaterials": "Manuals to know how to read the Bible or understand it better for ppl. That haven't read it before."
+            },
+            {
+                "id": 10,
+                "name": "Julie McLaughlin",
+                "email": "julie.mclaughlin@ywamships.net",
+                "ywamBase": "YWAM Ships Kona",
+                "baseLocation":  "Kailua-Kona, HI, USA",
+                "focusNations": "Isolated Pacific Islands",
+                "languageGroups": "",
+                "visionRegion": "",
+                "twoYearVision": "End of year and next year partnering with OCC with engagement and distribution for children in French Polynesia.",
+                "ebpnProject": true,
+                "startedProject": "Flotilla initiative is working on 66 Bibleless languages in Pacific",
+                "projectMaterials": "",
+                "desiredProjectMaterials": ""
+            },
+            {
+                "id": 11,
+                "name": "Josh Lake",
+                "email": "josh.lake@ywammontana.org",
+                "ywamBase": "YWAM Montana",
+                "baseLocation":  "Lakeside, MT",
+                "focusNations": "Thailand, Cambodia, Taiwan, India, Nepal, Ukraine",
+                "languageGroups": "None currently",
+                "visionRegion": "The languages in our target nations and the Pacific",
+                "twoYearVision": "I would love to have solid relationships formed with Bibleless people groups in these nations, started by Caleb Survey teams, and distribution plans established with our partners for the languages that already have a Bible.",
+                "ebpnProject": false,
+                "startedProject": "",
+                "projectMaterials": "",
+                "desiredProjectMaterials": ""
+            },
+            {
+                "id": 12,
+                "name": "Josiah Slabach",
+                "email": "josiah.slabach@ywammontana.org",
+                "ywamBase": "YWAM Montana",
+                "baseLocation":  "Lakeside, MT",
+                "focusNations": "Cambodia, Taiwan, Ukraine, Thailand and two other East Asian countries",
+                "languageGroups": "",
+                "visionRegion": "Cambodia",
+                "twoYearVision": "To see something started",
+                "ebpnProject": false,
+                "startedProject": "",
+                "projectMaterials": "",
+                "desiredProjectMaterials": ""
+            },
+            {
+                "id": 13,
+                "name": "Claudia Barragan",
+                "email": "claudia.barragan@ywamtyler.org",
+                "ywamBase": "YWAM Tyler",
+                "baseLocation":  "Lindale, TX",
+                "focusNations": "10/40 window",
+                "languageGroups": "Kaobrung",
+                "visionRegion": "",
+                "twoYearVision": "We would like to see the Tripura people have and understand the word of God in their language.",
+                "ebpnProject": true,
+                "startedProject": "For the Kaobrung language in Bangladesh, we would like to distribute more bibles and finish the old testament.",
+                "projectMaterials": "English",
+                "desiredProjectMaterials": ""
+            },
+            {
+                "id": 14,
+                "name": "Linda Dixon",
+                "email": "lindabdixon@att.net",
+                "ywamBase": "Independent",
+                "baseLocation":  "US",
+                "focusNations": "Global",
+                "languageGroups": "Global",
+                "visionRegion": "",
+                "twoYearVision": "Equip Teams with tools for Trauma Healing",
+                "ebpnProject": true,
+                "startedProject": "Trauma Healing",
+                "projectMaterials": "Trauma Healing Institute Materials. They are in over 120 languages.",
+                "desiredProjectMaterials": ""
             }
-        ]
+        ]   
     }
 ]
