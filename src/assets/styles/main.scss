@@ -5,12 +5,37 @@
 @import 'partners';
 @import 'hubs';
 @import 'loading';
+@import 'footer';
 
 body {
-//    padding-top: 24px;
+    padding-top: 24px;
     font-family: $lato;
     font-weight: 300;
     color: $black;
-    max-width: 688px;
+//    max-width: 688px;
 //    margin: auto;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+#root {
+    width: 100%;
+    max-width: 688px;
+}
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .header {
+        flex-shrink: 0;
+    }
+    .page-container {
+        flex: 1;
+    }
+    .footer {
+        flex-shrink: 0;
+    }
 }

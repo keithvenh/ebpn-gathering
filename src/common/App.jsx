@@ -11,12 +11,13 @@ import store from '../redux/store';
 import {connect} from 'react-redux';
 import navClick from '../redux/actions/navClick';
 import hubClick from '../redux/actions/hubClick';
-import Loading from './Loading';
+import Footer from './Footer';
 
 const mapStateToProps = (state) => {
   return {
     view: state.view,
-    hub: state.hub
+    hub: state.hub,
+    displayLoading: true
   }
 };
 
@@ -43,9 +44,10 @@ class App extends React.Component {
     console.log(this.props.view);
     let pageView = '';
     switch(this.props.view){
-      case 'loading': 
-        pageView = <Loading />
-        break;
+      // case 'loading': 
+      //   pageView = <Loading />
+      //   setTimeout(() => this.props.handleNavClick('schedule'), 4000);
+      //   break;
       case 'schedule':
         pageView = sessions.map(day => <SessionDay key={day.date} date={day.date} display={day.display} sessions={day.sessions}/>)
         break;
@@ -67,11 +69,17 @@ class App extends React.Component {
   
         <Header view={this.props.view} navClick={this.handleNavClick}/>
 
-        {pageView}
+        <div className='page-container'>
+          <div className='page-view'>
+
+            {pageView}
+
+          </div>
+        </div>
+        <Footer />
   
       </div>
     );
-
   }
 }
 
