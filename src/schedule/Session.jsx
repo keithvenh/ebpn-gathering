@@ -31,7 +31,7 @@ class Session extends React.Component {
     render() {
         return (
             <div className={`session current-${this.state.current}`}>
-                <h4 onClick={this.state.type_of !== "Break" && this.handleClick}><i className={`fas ${this.state.expanded ? "fa-caret-down" : "fa-caret-right"}`}></i> <span className='session-time'>{this.state.time}</span> || {this.state.type_of}</h4>
+                <h4 onClick={this.state.type_of !== "Break" ? this.handleClick : undefined}><i className={`fas ${this.state.expanded ? "fa-caret-down" : "fa-caret-right"}`}></i> <span className='session-time'>{this.state.time}</span> || {this.state.type_of}</h4>
                 {this.state.expanded && 
                     <div className="session-details">
                         {this.state.topic &&

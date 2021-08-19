@@ -36,10 +36,22 @@
 }
 
 .hub-more {
-    a {
-        color: $blue1;
-        &:hover {
-            color: $yellow1;
-        }
+    color: $blue1;
+    text-decoration: underline;
+    &:hover {
+        color: $yellow1;
+        cursor: pointer;
     }
+}
+
+.hub-question {
+    font-weight: 400;
+    padding: 6px 0;
+    line-height: 1.5em;
+    margin-top: 16px;
+}
+
+.hub-answer {
+    padding-left: 20px;
+    line-height: 1.5em;
 }

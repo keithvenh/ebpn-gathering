@@ -1,5 +1,4 @@
 import React from 'react';
-import {NAV_CLICK} from '../redux/actionTypes';
 
 class Header extends React.Component {
     constructor(props) {
