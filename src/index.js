@@ -5,10 +5,12 @@ import './assets/styles/main.scss';
 import App from './common/App';
 import reportWebVitals from './helpers/reportWebVitals';
 import store from './redux/store';
+import Loading from './common/Loading';
 
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
+      <Loading />
       <App />
     </Provider>
   </React.StrictMode>,

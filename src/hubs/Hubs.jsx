@@ -1,11 +1,13 @@
 import store from '../redux/store';
 import hubClick from '../redux/actions/hubClick';
+import navClick from '../redux/actions/navClick';
 import {connect} from 'react-redux';
 
 const mapDispatchToProps = (dispatch) => {
     return {
         handleHubClick: (hub) => {
             store.dispatch(hubClick(hub))
+            store.dispatch(navClick('hub'))
         }
     }
 };

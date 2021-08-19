@@ -11,6 +11,7 @@ import store from '../redux/store';
 import {connect} from 'react-redux';
 import navClick from '../redux/actions/navClick';
 import hubClick from '../redux/actions/hubClick';
+import Loading from './Loading';
 
 const mapStateToProps = (state) => {
   return {
@@ -39,8 +40,12 @@ class App extends React.Component {
   }
 
   render() {
+    console.log(this.props.view);
     let pageView = '';
     switch(this.props.view){
+      case 'loading': 
+        pageView = <Loading />
+        break;
       case 'schedule':
         pageView = sessions.map(day => <SessionDay key={day.date} date={day.date} display={day.display} sessions={day.sessions}/>)
         break;
@@ -48,7 +53,10 @@ class App extends React.Component {
         pageView = partners.map(partner => <Partner key={partner.id} partner={partner} />)
         break;
       case 'hubs':
-        pageView = this.props.hub === "all" ? hubs.map(region => <Region key={region.region} region={region}/>) : <Hub hub={this.props.hub} />
+        pageView = hubs.map(region => <Region key={region.region} region={region}/>)
+        break;
+      case 'hub':
+        pageView = <Hub hub={this.props.hub} />
         break;
       default:
         pageView = sessions.map(day => <SessionDay key={day.date} date={day.date} display={day.display} sessions={day.sessions}/>)

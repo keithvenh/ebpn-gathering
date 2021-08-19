@@ -1,0 +1,11 @@
+@import 'variables';
+
+.loading {
+    border: 1px solid $red1;
+    background-color: $navy1;
+    background-image: url("../images/gathering-splash.png");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100vw;
+}

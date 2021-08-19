@@ -28,9 +28,9 @@ class Header extends React.Component {
 
                 <nav className="navbar">
                     <ul className="nav-list">
-                        <li className={`nav-item active-${this.state.activeLink === 'schedule'}`} onClick={(event) => this.navItemClick(event)}>Schedule</li>
-                        <li className={`nav-item active-${this.state.activeLink === 'partners'}`} onClick={(event) => this.navItemClick(event)}>Partners</li>
-                        <li className={`nav-item active-${this.state.activeLink === 'hubs'}`} onClick={(event) => this.navItemClick(event)}>Hubs</li>
+                        <li className={`nav-item active-${this.props.view === 'schedule'}`} onClick={(event) => this.navItemClick(event)}>Schedule</li>
+                        <li className={`nav-item active-${this.props.view === 'partners'}`} onClick={(event) => this.navItemClick(event)}>Partners</li>
+                        <li className={`nav-item active-${this.props.view === 'hubs'}`} onClick={(event) => this.navItemClick(event)}>Hubs</li>
                     </ul>
                 </nav>
 
