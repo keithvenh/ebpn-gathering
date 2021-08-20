@@ -93,7 +93,7 @@
 {
 "id": 10,
 "name": "Wycliffe",
-"representatives": "Ray Gogonzala, Andy Ott, Doug Hennum, Sarah Traverso, Andrew Flemming and Dave Brooks",
+"representatives": "Ray Gonzalez, Andy Ott, Doug Hennum, Sarah Traverso, Andrew Flemming and Dave Brooks",
 "email": "info_USA@wycliffe.org",
 "location": "Orlando, Florida USA",
 "logo": "wycliffe.png",
@@ -109,6 +109,16 @@
 "logo": "lumo.png",
 "website": "https://www.lumoproject.com",
 "description": "LUMO helps church leaders and pastors visually and emotionally engage their congregation in the Gospel story."
+},
+{
+    "id": 12,
+    "name": "Global Recordings Network",
+    "representatives": "Rolland Heck",
+    "email": "",
+    "location": "Tucson, Arizona USA",
+    "logo": "globalrecordingsnetwork.png",
+    "website": "https://globalrecordings.net/en/us",
+    "description": "Our vision is to see the Good News in EVERY language and dialect on earth. GRN is at your service providing audio evangelism messages in most of the world's languages."
 }
 
 ]

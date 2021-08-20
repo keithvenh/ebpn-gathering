@@ -10,7 +10,7 @@
                 "baseLocation":  "Potchefstroom, South Africa",
                 "focusNations": "Tanzania, Sierra Leone, Southern Africa",
                 "languageGroups": "",
-                "visionRegion": "Mozambique",
+                "visionRegion": "*SE Africa",
                 "twoYearVision": "Focusing on Tanzania and the distribution of SD-cards, focusing on Sub-Saharan Bibleless languages when it comes to Oral Bible Translation.",
                 "ebpnProject": true,
                 "startedProject": "OBT1000",
@@ -23,7 +23,7 @@
                 "email": "rileykneedler@gmail.com",
                 "ywamBase": "YWAM South Africa",
                 "baseLocation":  "Potchefstroom, South Africa",
-                "focusNations": "Ethiopia, Europe, Middle East, Nepal, Africa",
+                "focusNations": "Ethiopia, Europe, Middle East, *Asia, Africa",
                 "languageGroups": "We are beginning connection in Ethiopia.",
                 "visionRegion": "Sub-Saharan Africa",
                 "twoYearVision": "I just got back from an outreach in Ethiopia and would love to see the people in the local villages have a bible in their language and have others from the community come and get trained and go back to train others.",
@@ -58,7 +58,7 @@
                 "email": "timgillette@mac.com",
                 "ywamBase": "YWAM Taipei",
                 "baseLocation":  "New Taipei City,Taiwan",
-                "focusNations": "Taiwan, China, Myanmar, Vietnam, Cambodia, Indonesia",
+                "focusNations": "Taiwan, *Asia, *SE Asia, *SE Asia, Cambodia, *SE Asia",
                 "languageGroups": "Chinese, Khmer, Sinhala, Karen, Tamil",
                 "visionRegion": "",
                 "twoYearVision": "Partner with other orgs in training",
@@ -154,6 +154,21 @@
             },
             {
                 "id": 10,
+                "name": "Sandy Gould",
+                "email": "sandygould08@gmail.com",
+                "ywamBase": "YWAM Colorado Springs",
+                "baseLocation":  "Colorado Springs, CO",
+                "focusNations": "Cambodia, *Asia, *Central Asia",
+                "languageGroups": "",
+                "visionRegion": "West Africa, *SE Asia, *SW Asia",
+                "twoYearVision": "Introduce Oral Biblical Storting for evangelism and discipleship during outreaches",
+                "ebpnProject": true,
+                "startedProject": "SD card distribution",
+                "projectMaterials": "I am new to the base so I am not completely sure",
+                "desiredProjectMaterials": ""
+            },
+            {
+                "id": 11,
                 "name": "Julie McLaughlin",
                 "email": "julie.mclaughlin@ywamships.net",
                 "ywamBase": "YWAM Ships Kona",
@@ -168,12 +183,12 @@
                 "desiredProjectMaterials": ""
             },
             {
-                "id": 11,
+                "id": 12,
                 "name": "Josh Lake",
                 "email": "josh.lake@ywammontana.org",
                 "ywamBase": "YWAM Montana",
                 "baseLocation":  "Lakeside, MT",
-                "focusNations": "Thailand, Cambodia, Taiwan, India, Nepal, Ukraine",
+                "focusNations": "Thailand, Cambodia, Taiwan, *S Asia, *Asia, Ukraine",
                 "languageGroups": "None currently",
                 "visionRegion": "The languages in our target nations and the Pacific",
                 "twoYearVision": "I would love to have solid relationships formed with Bibleless people groups in these nations, started by Caleb Survey teams, and distribution plans established with our partners for the languages that already have a Bible.",
@@ -183,7 +198,7 @@
                 "desiredProjectMaterials": ""
             },
             {
-                "id": 12,
+                "id": 13,
                 "name": "Josiah Slabach",
                 "email": "josiah.slabach@ywammontana.org",
                 "ywamBase": "YWAM Montana",
@@ -198,7 +213,7 @@
                 "desiredProjectMaterials": ""
             },
             {
-                "id": 13,
+                "id": 14,
                 "name": "Claudia Barragan",
                 "email": "claudia.barragan@ywamtyler.org",
                 "ywamBase": "YWAM Tyler",
@@ -213,7 +228,7 @@
                 "desiredProjectMaterials": ""
             },
             {
-                "id": 14,
+                "id": 15,
                 "name": "Linda Dixon",
                 "email": "lindabdixon@att.net",
                 "ywamBase": "Independent",
