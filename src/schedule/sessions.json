@@ -7,45 +7,42 @@
                 "id": 1,
                 "type_of": "Welcome",
                 "start_time": 800,
-                "end_time": 825,
-                "time": "800a - 825a",
+                "end_time": 900,
+                "time": "800a - 900a",
                 "speaker": "David Joel Hamilton",
                 "topic": "Welcome",
-                "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                "zoom_url": "https://us02web.zoom.us/j/81371955991?pwd=dFN3ZXNEN2NIOVROTS9Pdk5zUm5RZz09"
             },
             {
                 "id": 2,
-                "type_of": "Main Session",
-                "start_time": 830,
-                "end_time": 855,
-                "time": "830a - 855a",
-                "speaker": "Austin Sunderman and Dax Fears",
-                "topic": "Heart of the Gathering",
-                "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                "type_of": "Break",
+                "start_time": 900,
+                "end_time": 910,
+                "time": "900a - 1000a"
             },
             {
                 "id": 3,
                 "type_of": "Introductions",
-                "start_time": 900,
-                "end_time": 955,
-                "time": "900a - 955a",
+                "start_time": 910,
+                "end_time": 1050,
+                "time": "910a - 1040a",
                 "speaker": "Austin Sunderman",
                 "topic": "Introductions",
-                "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                "zoom_url": "https://us02web.zoom.us/j/81371955991?pwd=dFN3ZXNEN2NIOVROTS9Pdk5zUm5RZz09"
             },
             {
                 "id": 4,
                 "type_of": "Break",
-                "start_time": 955,
-                "end_time": 1010,
-                "time": "1000a - 1010a"
+                "start_time": 1050,
+                "end_time": 1100,
+                "time": "1050a - 1100a"
             },
             {
                 "id": 5,
                 "type_of": "Breakout Sessions",
-                "start_time": 1015,
-                "end_time": 1100,
-                "time": "1015a - 1100a",
+                "start_time": 1100,
+                "end_time": 1145,
+                "time": "1100a - 1145a",
                 "subsessions": [
                     {
                         "id": 5.1,
@@ -68,35 +65,6 @@
                         "zoom_url": "https://us02web.zoom.us/j/8540118317"
                     }
                 ]
-            },
-            {
-                "id": 6,
-                "type_of": "Breakout Sessions",
-                "start_time": 1105,
-                "end_time": 1150,
-                "time": "1105a - 1150a",
-                "subsessions": [
-                    {
-                        "id": 6.1,
-                        "topic": "Trauma Healing and Bible Engagement",
-                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
-                    },
-                    {
-                        "id": 6.2,
-                        "topic": "The Deaf: The Largest Unreached People Group",
-                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
-                    },
-                    {
-                        "id": 6.3,
-                        "topic": "Becoming and End Bible Poverty Now Hub",
-                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
-                    },
-                    {
-                        "id": 6.4,
-                        "topic": "Engage in Bible Translation with Wycliffe",
-                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
-                    }
-                ]
             }
         ]
     },
@@ -105,45 +73,52 @@
         "display": "Wednesday, 1 September",
         "sessions": [
             {
-                "id": 7,
+                "id": 6,
                 "type_of": "Worship and the Word",
                 "start_time": 800,
                 "end_time": 815,
                 "time": "800a - 815a",
-                "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                "zoom_url": "https://us02web.zoom.us/j/81371955991?pwd=dFN3ZXNEN2NIOVROTS9Pdk5zUm5RZz09"
+            },
+            {
+                "id": 7,
+                "type_of": "Main Session",
+                "start_time": 815,
+                "end_time": 900,
+                "time": "815 - 900a",
+                "speaker": "David Joel Hamilton and David Brooks",
+                "topic": "Partnership",
+                "zoom_url": "https://us02web.zoom.us/j/81371955991?pwd=dFN3ZXNEN2NIOVROTS9Pdk5zUm5RZz09"
             },
             {
                 "id": 8,
-                "type_of": "Main Session",
-                "start_time": 820,
-                "end_time": 855,
-                "time": "820a - 855a",
-                "speaker": "David Joel Hamilton and David Brooks",
-                "topic": "Decentralized Partnership",
-                "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                "type_of": "Break",
+                "start_time": 900,
+                "end_time": 910,
+                "time": "900a - 910a"
             },
             {
                 "id": 9,
                 "type_of": "Partner Presentations",
-                "start_time": 900,
-                "end_time": 1000,
-                "time": "900a - 1000a",
-                "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                "start_time": 910,
+                "end_time": 1040,
+                "time": "910a - 1040a",
+                "zoom_url": "https://us02web.zoom.us/j/81371955991?pwd=dFN3ZXNEN2NIOVROTS9Pdk5zUm5RZz09"
             },
             {
                 "id": 10,
                 "type_of": "Break",
-                "start_time": 1000,
-                "end_time": 1010,
-                "time": "1000a - 1010a"
+                "start_time": 1040,
+                "end_time": 1050,
+                "time": "1040a - 1050a"
             },
             {
                 "id": 11,
                 "type_of": "Partner Presentations",
-                "start_time": 1015,
+                "start_time": 1050,
                 "end_time": 1200,
-                "time": "1015a - 1200a",
-                "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                "time": "1050a - 1200a",
+                "zoom_url": "https://us02web.zoom.us/j/81371955991?pwd=dFN3ZXNEN2NIOVROTS9Pdk5zUm5RZz09"
             }
         ]
     },
@@ -157,141 +132,131 @@
                 "start_time": 800,
                 "end_time": 815,
                 "time": "800a - 815a",
-                "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                "zoom_url": "https://us02web.zoom.us/j/81371955991?pwd=dFN3ZXNEN2NIOVROTS9Pdk5zUm5RZz09"
             },
             {
                 "id": 13,
-                "type_of": "Partner Presentations",
-                "start_time": 820,
-                "end_time": 915,
-                "time": "820a-915a",
-                "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                "type_of": "Breakout Sessions",
+                "start_time": 815,
+                "end_time": 845,
+                "time": "815a - 845a",
+                "subsessions": [
+                    {
+                        "id": 13.1,
+                        "topic": "Prayer Roundtable",
+                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                    },
+                    {
+                        "id": 13.2,
+                        "topic": "Translation Roundtable",
+                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                    },
+                    {
+                        "id": 13.3,
+                        "topic": "Publication Roundtable",
+                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                    },
+                    {
+                        "id": 13.4,
+                        "topic": "Distribution Roundtable",
+                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                    },
+                    {
+                        "id": 13.5,
+                        "topic": "Education Roundtable",
+                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                    },
+                    {
+                        "id": 13.6,
+                        "topic": "Motivation Roundtable",
+                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                    }
+                ]
             },
             {
                 "id": 14,
-                "type_of": "Main Session",
-                "start_time": 920,
-                "end_time": 930,
-                "time": "920a - 930a",
-                "speaker": "Loren Cunninngham",
-                "topic": "March 7 Vision",
-                "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                "type_of": "Breakout Sessions",
+                "start_time": 845,
+                "end_time": 915,
+                "time": "845a - 915a",
+                "subsessions": [
+                    {
+                        "id": 14.1,
+                        "topic": "Prayer Roundtable",
+                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                    },
+                    {
+                        "id": 14.2,
+                        "topic": "Translation Roundtable",
+                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                    },
+                    {
+                        "id": 14.3,
+                        "topic": "Publication Roundtable",
+                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                    },
+                    {
+                        "id": 14.4,
+                        "topic": "Distribution Roundtable",
+                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                    },
+                    {
+                        "id": 14.5,
+                        "topic": "Education Roundtable",
+                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                    },
+                    {
+                        "id": 14.6,
+                        "topic": "Motivation Roundtable",
+                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                    }
+                ]
             },
             {
                 "id": 15,
                 "type_of": "Break",
-                "start_time": 930,
-                "end_time": 940,
+                "start_time": 915,
+                "end_time": 930,
                 "time": "930a-945a"
             },
             {
                 "id": 16,
                 "type_of": "Main Session",
-                "start_time": 945,
-                "end_time": 1005,
-                "time": "945a-1005a",
-                "speaker": "Skyla Graig-Murray",
-                "topic": "Deaf and Bible Poverty",
-                "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                "start_time": 930,
+                "end_time": 1015,
+                "time": "930a - 1015a",
+                "speaker": "Loren Cunningham",
+                "topic": "To Be Announced",
+                "zoom_url": "https://us02web.zoom.us/j/81371955991?pwd=dFN3ZXNEN2NIOVROTS9Pdk5zUm5RZz09"
             },
             {
                 "id": 17,
-                "type_of": "Main Session",
-                "start_time": 1010,
+                "type_of": "Break",
+                "start_time": 1015,
                 "end_time": 1030,
-                "time": "1010a - 1030a",
-                "speaker": "Daniel Avila",
-                "topic": "Global Outreach Bible Distribution",
-                "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                "time": "930a-945a"
             },
             {
                 "id": 18,
                 "type_of": "Main Session",
-                "start_time": 1035,
-                "end_time": 1055,
-                "time": "1035a - 1055a",
-                "speaker": "Dax Fears",
-                "topic": "Until: A New Collaborative Vision",
-                "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                "start_time": 1030,
+                "end_time": 1130,
+                "time": "1030a - 1130a",
+                "speaker": "Various",
+                "topic": "EBPN Global Projects",
+                "zoom_url": "https://us02web.zoom.us/j/81371955991?pwd=dFN3ZXNEN2NIOVROTS9Pdk5zUm5RZz09"
             },
             {
                 "id": 19,
-                "type_of": "Breakout Sessions",
-                "start_time": 1100,
-                "end_time": 1130,
-                "time": "1100a - 1130a",
-                "subsessions": [
-                    {
-                        "id": 19.1,
-                        "topic": "Prayer Roundtable",
-                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
-                    },
-                    {
-                        "id": 19.2,
-                        "topic": "Translation Roundtable",
-                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
-                    },
-                    {
-                        "id": 19.3,
-                        "topic": "Publication Roundtable",
-                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
-                    },
-                    {
-                        "id": 19.4,
-                        "topic": "Distribution Roundtable",
-                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
-                    },
-                    {
-                        "id": 19.5,
-                        "topic": "Education Roundtable",
-                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
-                    },
-                    {
-                        "id": 19.6,
-                        "topic": "Motivation Roundtable",
-                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
-                    }
-                ]
-            },
-            {
-                "id": 20,
-                "type_of": "Breakout Sessions",
-                "start_time": 1100,
-                "end_time": 1130,
-                "time": "1100a - 1130a",
-                "subsessions": [
-                    {
-                        "id": 20.1,
-                        "topic": "Prayer Roundtable",
-                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
-                    },
-                    {
-                        "id": 20.2,
-                        "topic": "Translation Roundtable",
-                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
-                    },
-                    {
-                        "id": 20.3,
-                        "topic": "Publication Roundtable",
-                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
-                    },
-                    {
-                        "id": 20.4,
-                        "topic": "Distribution Roundtable",
-                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
-                    },
-                    {
-                        "id": 20.5,
-                        "topic": "Education Roundtable",
-                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
-                    },
-                    {
-                        "id": 20.6,
-                        "topic": "Motivation Roundtable",
-                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
-                    }
-                ]
+                "type_of": "Closing",
+                "start_time": 1130,
+                "end_time": 1200,
+                "time": "1130 - 1200a",
+                "speaker": "Dax Fears",
+                "topic": "Next Steps to End Bible Poverty",
+                "zoom_url": "https://us02web.zoom.us/j/81371955991?pwd=dFN3ZXNEN2NIOVROTS9Pdk5zUm5RZz09"
             }
+            
         ]
     },
     {
@@ -299,22 +264,22 @@
         "display": "Friday, 3 September",
         "sessions": [
             {
-                "id": 21,
+                "id": 20,
                 "type_of": "Worship and the Word",
                 "start_time": 800,
-                "end_time": 855,
-                "time": "800a - 855a",
-                "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                "end_time": 830,
+                "time": "800a - 830a",
+                "zoom_url": "https://us02web.zoom.us/j/81371955991?pwd=dFN3ZXNEN2NIOVROTS9Pdk5zUm5RZz09"
             },
             {
-                "id": 22,
+                "id": 21,
                 "type_of": "Main Session",
-                "start_time": 900,
-                "end_time": 955,
-                "time": "900a - 955a",
+                "start_time": 830,
+                "end_time": 930,
+                "time": "830a - 930a",
                 "speaker": "Dax Fears",
                 "topic": "Action Items and Next Steps",
-                "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                "zoom_url": "https://us02web.zoom.us/j/81371955991?pwd=dFN3ZXNEN2NIOVROTS9Pdk5zUm5RZz09"
             }
         ]
     }
