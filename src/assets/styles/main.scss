@@ -8,7 +8,7 @@
 @import 'footer';
 
 body {
-    padding-top: 24px;
+//    padding-top: 24px;
     font-family: $lato;
     font-weight: 300;
     color: $black;
@@ -23,6 +23,8 @@ body {
 #root {
     width: 100%;
     max-width: 688px;
+    background-color: #fff;
+    padding-top: 24px;
 }
 .App {
     min-height: 100vh;

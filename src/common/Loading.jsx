@@ -16,8 +16,10 @@ class Loading extends React.Component {
 
     componentDidMount() {
         let loadScreen = document.getElementById('loading-screen');
-        setTimeout(() => loadScreen.style.left = '100vw', 3000);
-        setTimeout(() => loadScreen.style.display = 'none', 4000);
+        setTimeout(() => loadScreen.style.left = '120vw', 3000);
+        setTimeout(() => loadScreen.style.filter = 'blur(20px)', 4500);
+        setTimeout(() => loadScreen.style.zIndex = '-1', 4500);
+        setTimeout(() => loadScreen.style.left = '0', 5000);
     }
     
     render() {
