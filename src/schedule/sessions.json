@@ -11,7 +11,7 @@
                 "time": "800a - 900a",
                 "speaker": "David Joel Hamilton",
                 "topic": "Welcome",
-                "zoom_url": "https://us02web.zoom.us/j/81371955991?pwd=dFN3ZXNEN2NIOVROTS9Pdk5zUm5RZz09"
+                "zoom_url": "https://us02web.zoom.us/j/81371955991"
             },
             {
                 "id": 2,
@@ -28,7 +28,7 @@
                 "time": "910a - 1040a",
                 "speaker": "Austin Sunderman",
                 "topic": "Introductions",
-                "zoom_url": "https://us02web.zoom.us/j/81371955991?pwd=dFN3ZXNEN2NIOVROTS9Pdk5zUm5RZz09"
+                "zoom_url": "https://us02web.zoom.us/j/81371955991"
             },
             {
                 "id": 4,
@@ -78,7 +78,7 @@
                 "start_time": 800,
                 "end_time": 815,
                 "time": "800a - 815a",
-                "zoom_url": "https://us02web.zoom.us/j/81371955991?pwd=dFN3ZXNEN2NIOVROTS9Pdk5zUm5RZz09"
+                "zoom_url": "https://us02web.zoom.us/j/81371955991"
             },
             {
                 "id": 7,
@@ -88,7 +88,7 @@
                 "time": "815 - 900a",
                 "speaker": "David Joel Hamilton and David Brooks",
                 "topic": "Partnership",
-                "zoom_url": "https://us02web.zoom.us/j/81371955991?pwd=dFN3ZXNEN2NIOVROTS9Pdk5zUm5RZz09"
+                "zoom_url": "https://us02web.zoom.us/j/81371955991"
             },
             {
                 "id": 8,
@@ -103,7 +103,7 @@
                 "start_time": 910,
                 "end_time": 1040,
                 "time": "910a - 1040a",
-                "zoom_url": "https://us02web.zoom.us/j/81371955991?pwd=dFN3ZXNEN2NIOVROTS9Pdk5zUm5RZz09"
+                "zoom_url": "https://us02web.zoom.us/j/81371955991"
             },
             {
                 "id": 10,
@@ -118,7 +118,7 @@
                 "start_time": 1050,
                 "end_time": 1230,
                 "time": "1050a - 1230a",
-                "zoom_url": "https://us02web.zoom.us/j/81371955991?pwd=dFN3ZXNEN2NIOVROTS9Pdk5zUm5RZz09"
+                "zoom_url": "https://us02web.zoom.us/j/81371955991"
             }
         ]
     },
@@ -132,7 +132,7 @@
                 "start_time": 800,
                 "end_time": 815,
                 "time": "800a - 815a",
-                "zoom_url": "https://us02web.zoom.us/j/81371955991?pwd=dFN3ZXNEN2NIOVROTS9Pdk5zUm5RZz09"
+                "zoom_url": "https://us02web.zoom.us/j/81371955991"
             },
             {
                 "id": 13,
@@ -227,7 +227,7 @@
                 "time": "930a - 1015a",
                 "speaker": "Loren Cunningham",
                 "topic": "To Be Announced",
-                "zoom_url": "https://us02web.zoom.us/j/81371955991?pwd=dFN3ZXNEN2NIOVROTS9Pdk5zUm5RZz09"
+                "zoom_url": "https://us02web.zoom.us/j/81371955991"
             },
             {
                 "id": 17,
@@ -244,7 +244,7 @@
                 "time": "1030a - 1130a",
                 "speaker": "Various",
                 "topic": "EBPN Global Projects",
-                "zoom_url": "https://us02web.zoom.us/j/81371955991?pwd=dFN3ZXNEN2NIOVROTS9Pdk5zUm5RZz09"
+                "zoom_url": "https://us02web.zoom.us/j/81371955991"
             },
             {
                 "id": 19,
@@ -254,7 +254,7 @@
                 "time": "1130 - 1200a",
                 "speaker": "Dax Fears",
                 "topic": "Next Steps to End Bible Poverty",
-                "zoom_url": "https://us02web.zoom.us/j/81371955991?pwd=dFN3ZXNEN2NIOVROTS9Pdk5zUm5RZz09"
+                "zoom_url": "https://us02web.zoom.us/j/81371955991"
             }
             
         ]
@@ -269,7 +269,7 @@
                 "start_time": 800,
                 "end_time": 830,
                 "time": "800a - 830a",
-                "zoom_url": "https://us02web.zoom.us/j/81371955991?pwd=dFN3ZXNEN2NIOVROTS9Pdk5zUm5RZz09"
+                "zoom_url": "https://us02web.zoom.us/j/81371955991"
             },
             {
                 "id": 21,
@@ -279,7 +279,7 @@
                 "time": "830a - 930a",
                 "speaker": "Dax Fears",
                 "topic": "Action Items and Next Steps",
-                "zoom_url": "https://us02web.zoom.us/j/81371955991?pwd=dFN3ZXNEN2NIOVROTS9Pdk5zUm5RZz09"
+                "zoom_url": "https://us02web.zoom.us/j/81371955991"
             }
         ]
     }
