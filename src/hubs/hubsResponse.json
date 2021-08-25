@@ -88,6 +88,21 @@
         "region": "Europe",
         "bases": [
             {
+                "id": 16,
+                "name": "Tracy & Jeff Van Veen",
+                "email": "tracyvanveen@gmail.com",
+                "ywamBase": "King's Mansion & YWAM Berlin",
+                "baseLocation":  "Berlin, Germany",
+                "focusNations": "3 nations in the Middle East",
+                "languageGroups": "German, Arabic, Farsi, Turkish, Russian",
+                "visionRegion": "As we continue to grow and expand!",
+                "twoYearVision": "Continued purchase of Bibles for Bible for Berlin project: and continued growth of relationship and trust with the Body of Christ in Berlin.",
+                "ebpnProject": true,
+                "startedProject": "Bible for Berlin (door to door distribution)",
+                "projectMaterials": "Mostly German so far... Custom City Interactive Bibles.",
+                "desiredProjectMaterials": "Polish stock. Also good resources for German audio Bibles for elderly (that will not require significant technical proficiency)."
+            },
+            {
                 "id": 6,
                 "name": "Estela Ferraz",
                 "email": "estela.ferraz@jcum.com",
@@ -101,6 +116,26 @@
                 "startedProject": "We started distributing Bibles in the town of Extremadura, Spain in 2017, and by now we already distributed 26,000 Bibles ",
                 "projectMaterials": "Bible and New Testaments",
                 "desiredProjectMaterials": "Bible and New Testaments"
+            }
+        ]
+    },
+    {
+        "region": "South America",
+        "bases": [
+            {
+                "id": 21,
+                "name": "Daniel Castro",
+                "email": "dcastroh.94@gmail.com",
+                "ywamBase": "YWAM Cartagena",
+                "baseLocation":  "Cartagena, Colombia",
+                "focusNations": "Indigenous communities in Colombia, Venezuela, Colombian Cities and Islands",
+                "languageGroups": "Spanish, Yukpa, Wayuu, Kogui, Embera",
+                "visionRegion": "Embera-Baudo, Playero, Carabayo",
+                "twoYearVision": "Start the OBT1000 in the 4 bibleless languages in Colombia, Masive Bible distribution in Colombia reaching the cities af all the 32 states of our country giving around 15 million Bibles, sending Bible in SD cards to Venezuela, Start new churches working with the Ministry We The Church Ministry, Finishing Bible Distribution in Islands nearby Cartagena.",
+                "ebpnProject": true,
+                "startedProject": "Bible distribution in 4 cities in Colombia, Bible distribution in Bocachica Island, Bible Distribution in Koguis, Wayuu and Yukpas communities, Bible Distribution training for YWAM and the Church, Masive Bible Distribution in cities in Colobia. Inductive bible study in Bocachica and Koguis.",
+                "projectMaterials": "Full Bible in Kogui, Wayuu, Yukpa, Spanish, Arhuaco. JF backpack, JF movie, Bible Project Videos.",
+                "desiredProjectMaterials": "OBT material for bible translation, USB for phones, WiFi Hostpot Pocket"
             }
         ]
     },
@@ -123,6 +158,20 @@
                 "desiredProjectMaterials": ""
             },
             {
+                "id": 17,
+                "name": "Melinda Neufeld",
+                "email": "melinda.neufeld@ywamniagara.org",
+                "ywamBase": "YWAM Niagara",
+                "baseLocation":  "Ontario, CA",
+                "focusNations": "We are a new pioneering centre, so are currently praying into this!",
+                "languageGroups": "None yet, but we would like to!",
+                "visionRegion": "Native languages of Canada and Greenland",
+                "twoYearVision": "To incorporate EBPN into every DTS outreach, to choose a focus nation that aligns with EBPN, to adopt a people group that doesn't have a translation yet. To accomplish these goals we need at least one other staff who will help us carry the vision for EBPN, Bibles, and translation resources.",
+                "ebpnProject": false,
+                "startedProject": "",
+                "projectMaterials": ""
+            },
+            {
                 "id": 8,
                 "name": "Ezra Rice",
                 "email": "Ezrarice@gmail.com",
@@ -141,16 +190,31 @@
                 "id": 9,
                 "name": "Juan Carlos Crespo",
                 "email": "Juancarlos@jucummazatlan.com",
-                "ywamBase": "YWAM Mazatlan",
+                "ywamBase": "YWAM Mazatlán",
                 "baseLocation":  "Mazatlán, Mexico",
                 "focusNations": "All of Mexico",
                 "languageGroups": "Families en general (a bible in every home)",
                 "visionRegion": "Indigenous communities in Mexico",
                 "twoYearVision": "En our city by the end of 2021 and start in the capital of our state plus Durango (the state next to us). For that we need more volunteers, Bibles and funds.",
                 "ebpnProject": true,
-                "startedProject": "Bible distribution mostly printed bibles, in Mazatlan and towns around.",
+                "startedProject": "Bible distribution mostly printed bibles, in Mazatlán and towns around.",
                 "projectMaterials": "Printed bibles in Spanish.",
                 "desiredProjectMaterials": "Manuals to know how to read the Bible or understand it better for ppl. That haven't read it before."
+            },
+            {
+                "id": 18,
+                "name": "Yolanda Ibarra",
+                "email": "Yolanda@jucummazatlan.com",
+                "ywamBase": "YWAM Mazatlán",
+                "baseLocation":  "Mazatlán, Mexico",
+                "focusNations": "Mexico",
+                "languageGroups": "Bible distribution in Mexico- spanish",
+                "visionRegion": "Not at the moment",
+                "twoYearVision": "Finish the city with bibles",
+                "ebpnProject": false,
+                "startedProject": "",
+                "projectMaterials": "",
+                "desiredProjectMaterials": ""
             },
             {
                 "id": 10,
@@ -165,6 +229,36 @@
                 "ebpnProject": true,
                 "startedProject": "SD card distribution",
                 "projectMaterials": "I am new to the base so I am not completely sure",
+                "desiredProjectMaterials": ""
+            },
+            {
+                "id": 19,
+                "name": "Jefferson Brunetti",
+                "email": "jefferson.brunetti@uofnkona.edu",
+                "ywamBase": "YWAM Kona",
+                "baseLocation":  "Kailua-Kona, HI",
+                "focusNations": "Guinea-Bissau",
+                "languageGroups": "The upper Guine crioulo, fulakunda, mandinka, manjako, susu",
+                "visionRegion": "We have a vision the help other countries in the West Africa such as Senegal, Gambia, Cape Verde, Sierra Leone, Liberia, and Mali",
+                "twoYearVision": "Right now we are focusing on Guinea-Bissau mobilizing the YWAM base, local churches, and other mission organizations for the big campaign to have one Bible in every home and to start listening groups that could lead to discipleship groups and hopefully it will turn out to be church planting movement.",
+                "ebpnProject": true,
+                "startedProject": "We are in the very beginning of this project in partnership with the EBPN ministry in Kona where we have been taking audio bibles and distributing them to local churches where the member don’t have access to the Bible or don’t know how to read. We also brought some equipments such as the renew backpack that will help missionaries and the local churches to share the gospel through the Jesus Film and other evangelistic movies",
+                "projectMaterials": "Upper Guine crioulo, Fulakunda, Mandinka, Manjako",
+                "desiredProjectMaterials": "Sonike, Balanta, Bijago, Papel, Biafada"
+            },
+            {
+                "id": 20,
+                "name": "Paul Ismael Dingtounda",
+                "email": "whoishe2yu@gmail.com",
+                "ywamBase": "YWAM Ships Kona",
+                "baseLocation":  "Kailua-Kona, HI",
+                "focusNations": "Pacific (French Polynesia, Fiji, Vanuatu)",
+                "languageGroups": "",
+                "visionRegion": "Yes, West Africa",
+                "twoYearVision": "We are collaborating with the Ships Flotilla team, targeting the 66+ bibleless languages in the Pacific in the area of translation. We need to identify speakers of those languages and build relationships with them. Then, we can do Caleb survey and closely work with the OBT team",
+                "ebpnProject": false,
+                "startedProject": "",
+                "projectMaterials": "",
                 "desiredProjectMaterials": ""
             },
             {
