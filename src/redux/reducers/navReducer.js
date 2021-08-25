@@ -1,6 +1,6 @@
 import {NAV_CLICK} from '../actionTypes.js';
 
-const navReducer = (state='loading', action) => {
+const navReducer = (state='schedule', action) => {
 
     switch(action.type) {
         case NAV_CLICK:
