@@ -129,6 +129,7 @@
             {
                 "id": 12,
                 "type_of": "Worship and the Word",
+                "speaker": "Lumo Project",
                 "start_time": 800,
                 "end_time": 815,
                 "time": "800a - 815a",
@@ -175,10 +176,18 @@
             },
             {
                 "id": 14,
-                "type_of": "Breakout Sessions",
+                "type_of": "Break",
+                "display": "Transition",
                 "start_time": 845,
-                "end_time": 915,
-                "time": "845a - 915a",
+                "end_time": 850,
+                "time": "845a-850a"
+            },
+            {
+                "id": 15,
+                "type_of": "Breakout Sessions",
+                "start_time": 850,
+                "end_time": 920,
+                "time": "850a-920a",
                 "subsessions": [
                     {
                         "id": 14.1,
@@ -213,14 +222,14 @@
                 ]
             },
             {
-                "id": 15,
+                "id": 16,
                 "type_of": "Break",
-                "start_time": 915,
+                "start_time": 920,
                 "end_time": 930,
-                "time": "915a-930a"
+                "time": "920a-930a"
             },
             {
-                "id": 16,
+                "id": 17,
                 "type_of": "Main Session",
                 "start_time": 930,
                 "end_time": 1015,
@@ -230,14 +239,14 @@
                 "zoom_url": "https://us02web.zoom.us/j/81371955991"
             },
             {
-                "id": 17,
+                "id": 18,
                 "type_of": "Break",
                 "start_time": 1015,
                 "end_time": 1030,
                 "time": "1015a-1030a"
             },
             {
-                "id": 18,
+                "id": 19,
                 "type_of": "Main Session",
                 "start_time": 1030,
                 "end_time": 1130,
@@ -247,13 +256,13 @@
                 "zoom_url": "https://us02web.zoom.us/j/81371955991"
             },
             {
-                "id": 19,
+                "id": 20,
                 "type_of": "Closing",
                 "start_time": 1130,
                 "end_time": 1200,
                 "time": "1130 - 1200a",
-                "speaker": "Dax Fears",
-                "topic": "Next Steps to End Bible Poverty",
+                "speaker": "David Hamilton",
+                "topic": "Closing Our Time Together",
                 "zoom_url": "https://us02web.zoom.us/j/81371955991"
             }
             
@@ -264,7 +273,7 @@
         "display": "Friday, 3 September",
         "sessions": [
             {
-                "id": 20,
+                "id": 21,
                 "type_of": "Worship and the Word",
                 "start_time": 800,
                 "end_time": 830,
@@ -272,7 +281,7 @@
                 "zoom_url": "https://us02web.zoom.us/j/81371955991"
             },
             {
-                "id": 21,
+                "id": 22,
                 "type_of": "Main Session",
                 "start_time": 830,
                 "end_time": 930,
