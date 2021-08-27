@@ -12,6 +12,7 @@ import {connect} from 'react-redux';
 import navClick from '../redux/actions/navClick';
 import hubClick from '../redux/actions/hubClick';
 import Footer from './Footer';
+import Resources from '../resources/Resources';
 
 const mapStateToProps = (state) => {
   return {
@@ -59,6 +60,9 @@ class App extends React.Component {
         break;
       case 'hub':
         pageView = <Hub hub={this.props.hub} />
+        break;
+      case 'resources':
+        pageView = <Resources />
         break;
       default:
         pageView = sessions.map(day => <SessionDay key={day.date} date={day.date} display={day.display} sessions={day.sessions}/>)
