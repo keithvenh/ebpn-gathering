@@ -6,7 +6,9 @@ const Resources = (props) => {
             <div className ='resource'>
                 <h2 className='resource-title'>March 7 Vision</h2>
                 <p className='resource-author'>Loren Cunningham</p>
-                <iframe className='resource-item' width="560" height="315" src="https://www.youtube-nocookie.com/embed/Gxi_mLCEDiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div className='resource-container'>
+                    <iframe className='resource-item' width="516" height="315" src="https://www.youtube-nocookie.com/embed/Gxi_mLCEDiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
 
             <div className ='resource'>
