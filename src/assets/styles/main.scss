@@ -26,12 +26,14 @@ body {
     max-width: 688px;
     background-color: #fff;
     padding-top: 24px;
+    box-sizing: border-box;
 }
 .App {
-    min-height: 100vh;
+    min-height: calc(100vh - 24px);
     display: flex;
     flex-direction: column;
     width: 100%;
+    box-sizing: border-box;
     .header {
         flex-shrink: 0;
     }
