@@ -47,7 +47,7 @@
                     {
                         "id": 5.1,
                         "topic": "Trauma Healing and Bible Engagement",
-                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                        "zoom_url": "https://us02web.zoom.us/j/7978988457"
                     },
                     {
                         "id": 5.2,
@@ -96,23 +96,8 @@
                 "id": 9,
                 "type_of": "Partner Presentations",
                 "start_time": 910,
-                "end_time": 1040,
-                "time": "910a - 1040a",
-                "zoom_url": "https://us02web.zoom.us/j/81371955991"
-            },
-            {
-                "id": 10,
-                "type_of": "Break",
-                "start_time": 1040,
-                "end_time": 1050,
-                "time": "1040a - 1050a"
-            },
-            {
-                "id": 11,
-                "type_of": "Partner Presentations",
-                "start_time": 1050,
                 "end_time": 1230,
-                "time": "1050a - 1230a",
+                "time": "910a - 1230p",
                 "zoom_url": "https://us02web.zoom.us/j/81371955991"
             }
         ]
@@ -140,32 +125,32 @@
                     {
                         "id": 13.1,
                         "topic": "Prayer Roundtable",
-                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                        "zoom_url": ""
                     },
                     {
                         "id": 13.2,
                         "topic": "Translation Roundtable",
-                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                        "zoom_url": ""
                     },
                     {
                         "id": 13.3,
                         "topic": "Publication Roundtable",
-                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                        "zoom_url": ""
                     },
                     {
                         "id": 13.4,
                         "topic": "Distribution Roundtable",
-                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                        "zoom_url": ""
                     },
                     {
                         "id": 13.5,
                         "topic": "Education Roundtable",
-                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                        "zoom_url": ""
                     },
                     {
                         "id": 13.6,
                         "topic": "Motivation Roundtable",
-                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                        "zoom_url": ""
                     }
                 ]
             },
@@ -187,32 +172,32 @@
                     {
                         "id": 14.1,
                         "topic": "Prayer Roundtable",
-                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                        "zoom_url": ""
                     },
                     {
                         "id": 14.2,
                         "topic": "Translation Roundtable",
-                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                        "zoom_url": ""
                     },
                     {
                         "id": 14.3,
                         "topic": "Publication Roundtable",
-                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                        "zoom_url": ""
                     },
                     {
                         "id": 14.4,
                         "topic": "Distribution Roundtable",
-                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                        "zoom_url": ""
                     },
                     {
                         "id": 14.5,
                         "topic": "Education Roundtable",
-                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                        "zoom_url": ""
                     },
                     {
                         "id": 14.6,
                         "topic": "Motivation Roundtable",
-                        "zoom_url": "https://us02web.zoom.us/j/8540118317"
+                        "zoom_url": ""
                     }
                 ]
             },
