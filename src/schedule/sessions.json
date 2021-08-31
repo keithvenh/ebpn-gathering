@@ -18,7 +18,7 @@
                 "type_of": "Break",
                 "start_time": 900,
                 "end_time": 910,
-                "time": "900a - 1000a"
+                "time": "900a - 910a"
             },
             {
                 "id": 3,
@@ -130,7 +130,7 @@
                     {
                         "id": 13.2,
                         "topic": "Translation Roundtable",
-                        "zoom_url": ""
+                        "zoom_url": "https://us04web.zoom.us/j/76924210036?pwd=EBPN"
                     },
                     {
                         "id": 13.3,
@@ -145,7 +145,7 @@
                     {
                         "id": 13.5,
                         "topic": "Education Roundtable",
-                        "zoom_url": "https://us02web.zoom.us/j/81371955991"
+                        "zoom_url": "https://us06web.zoom.us/j/87614397353"
                     }
                 ]
             },
@@ -172,7 +172,7 @@
                     {
                         "id": 14.2,
                         "topic": "Translation Roundtable",
-                        "zoom_url": ""
+                        "zoom_url": "https://us04web.zoom.us/j/76924210036?pwd=EBPN"
                     },
                     {
                         "id": 14.3,
@@ -187,7 +187,7 @@
                     {
                         "id": 14.5,
                         "topic": "Education Roundtable",
-                        "zoom_url": "https://us02web.zoom.us/j/81371955991"
+                        "zoom_url": "https://us06web.zoom.us/j/87614397353"
                     }
                 ]
             },
