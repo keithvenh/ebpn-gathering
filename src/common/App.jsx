@@ -55,7 +55,7 @@ class App extends React.Component {
       case 'partners':
         pageView = partners.map(partner => <Partner key={partner.id} partner={partner} />)
         break;
-      case 'hubs':
+      case 'ywam':
         pageView = hubs.map(region => <Region key={region.region} region={region}/>)
         break;
       case 'hub':
