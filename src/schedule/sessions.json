@@ -121,6 +121,7 @@
                 "start_time": 815,
                 "end_time": 845,
                 "time": "815a - 845a",
+                "code": "EBPN",
                 "subsessions": [
                     {
                         "id": 13.1,
@@ -163,6 +164,7 @@
                 "start_time": 850,
                 "end_time": 920,
                 "time": "850a-920a",
+                "code": "EBPN",
                 "subsessions": [
                     {
                         "id": 14.1,
