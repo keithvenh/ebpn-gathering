@@ -4,9 +4,6 @@ import Subsession from './Subsession';
 class Session extends React.Component {
     constructor(props)  {
         super(props);
-        const currentTime = new Date();
-        const time = `${currentTime.getHours()}${currentTime.getMinutes() < 10 ? "0" : ''}${currentTime.getMinutes()}`
-        const currentSession = parseInt(time) >= props.session.start_time && parseInt(time) < props.session.end_time;
         this.state = {
             expanded: false,
             startTime: props.session.start_tims,
@@ -17,6 +14,7 @@ class Session extends React.Component {
             zoom_url: props.session.zoom_url,
             type_of: props.session.type_of,
             subsessions: props.session.subsessions,
+            code: props.session.code
         }
         this.handleClick = this.handleClick.bind(this)
     }
@@ -39,6 +37,7 @@ class Session extends React.Component {
                                 <p className="speaker">{this.state.speaker}</p>
                             </div>
                         }
+                        {this.state.code && <p className='zoom-pwd'>ALL PASSWORDS: EBPN</p>}
                         {this.state.zoom_url && <a className='zoom-link zoom-link-sm' href={this.state.zoom_url} target='_blank' rel='noreferrer'>Join Session</a>}
                         {this.state.subsessions && 
                             this.state.subsessions.map(sub => <Subsession details={sub} key={sub.topic}/>)
