@@ -33,7 +33,7 @@ class Header extends React.Component {
                             <li className={`nav-item active-${this.props.view === 'partners'}`} onClick={(event) => this.navItemClick(event)}>Partners</li>
                         </div>
                         <div className='nav-item-container'>
-                            <li className={`nav-item active-${this.props.view === 'hubs'}`} onClick={(event) => this.navItemClick(event)}>Hubs</li>
+                            <li className={`nav-item active-${this.props.view === 'hubs'}`} onClick={(event) => this.navItemClick(event)}>YWAM</li>
                             <li className={`nav-item active-${this.props.view === 'resources'}`} onClick={(event) => this.navItemClick(event)}>Resources</li>
                         </div>
                     </ul>

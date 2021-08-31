@@ -145,12 +145,7 @@
                     {
                         "id": 13.5,
                         "topic": "Education Roundtable",
-                        "zoom_url": ""
-                    },
-                    {
-                        "id": 13.6,
-                        "topic": "Motivation Roundtable",
-                        "zoom_url": ""
+                        "zoom_url": "https://us02web.zoom.us/j/81371955991"
                     }
                 ]
             },
@@ -192,12 +187,7 @@
                     {
                         "id": 14.5,
                         "topic": "Education Roundtable",
-                        "zoom_url": ""
-                    },
-                    {
-                        "id": 14.6,
-                        "topic": "Motivation Roundtable",
-                        "zoom_url": ""
+                        "zoom_url": "https://us02web.zoom.us/j/81371955991"
                     }
                 ]
             },
