@@ -17,6 +17,11 @@ const Resources = (props) => {
                 <a className='resource-button' href='/reflections-on-partnering.pdf' download="Reflections On Partnering">Download the PDF!</a>
             </div>
 
+            <div className ='resource'>
+                <h2 className='resource-title'>The Pacific Wa'a Covenant</h2>
+                <a className='resource-button' href='/the-pacific-waa-covenant.pdf' download="The Pacific Wa'a Covenant">Download the PDF!</a>
+            </div>
+
         </div>
     );
 }
